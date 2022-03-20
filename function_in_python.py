@@ -1,0 +1,73 @@
+#1-10 test
+#1
+# def even(x):
+#     if x%2==0:
+#         print("even")
+#     else:
+#         print("not even")
+# even(int(input("choose number:")))
+
+#2
+# def avg():
+#     x = int(input("enter number:"))
+#     y = int(input("enter number:"))
+#     z = int(input("enter number:"))
+#     return (x + y + z) //3
+# print(avg())
+
+#3
+# def count_digit(x):
+#     while x != "999":
+#      print(len(x))
+#      x = input("enter number:\n")
+# count_digit("5")
+
+# #4
+# def change(price):
+#     change20 = price // 20
+#     change10 = (price - change20 * 20) // 10
+#     change5 = (price-change20*20 - change10*10) // 5
+#     change1 = (price-change20*20-change10*10 -change5*5) //1
+#     return change20,change10,change5,change1
+# a = change(158)
+# print(a)
+#
+# #5
+# p6=int(input('Enter Number'))
+# p8=int(input('Enter Number'))
+# p7=p6**p8
+# print(p7)
+
+
+#6
+# def above_1000(price):
+#     sale = price * 0.35
+#     result1 = price - sale
+#     print('favorite customer, you get a discount of 35% , the new price is :')
+#     return round(result1, 3)
+# def sale_price():
+#     price = int(input('enter price:'))
+#     if price >= 1000:
+#         call_function = (above_1000(price))
+#         return round(call_function, 3)
+#     else:
+#         answer = price * 0.10
+#         result2 = price - answer
+#         print('you get discount of 10% , the new price is :')
+#         return result2
+#
+# sale_price()
+
+#program for square equation solution
+7
+# import math
+# a = float(input("enter a:"))
+# b = float(input("enter b:"))
+# c = float(input("enter c:"))
+# d=b**2-4*a*c
+# x1 = (-b+math.sqrt(d))/(2*a)
+# x2 = (-b-math.sqrt(d))/(2*a)
+# print("a=",a,"b=",b,"c=",c)
+# print("first root=",x1)
+# print("second root=",x2)
+
