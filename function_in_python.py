@@ -59,7 +59,7 @@
 # sale_price()
 
 #program for square equation solution
-7
+#7
 # import math
 # a = float(input("enter a:"))
 # b = float(input("enter b:"))
@@ -96,3 +96,20 @@
 #
 #
 # choice(10,2)
+
+#q11
+# def customers():
+#     customers_id = int(input("what is your customer id ?"))
+#     goods_in_year = int(input("what is your goods in year ?"))
+#     bills_in_time = int(input("did you pay biils in time ? 1-yes 2-no"))
+#     seniorty_in_company = int(input("what is your seniorty in the company?"))
+#     if goods_in_year > 8000 and bills_in_time == 1 or seniorty_in_company >5:
+#          print(customers_id,"You deserve special care ")
+#     elif bills_in_time == 1:
+#         print(customers_id,"You deserve special care")
+#     elif goods_in_year > 8000 and bills_in_time == 1 and seniorty_in_company >= 5:
+#         print(customers_id, "You spacial custome ! You deserve special care ")
+#customers()
+
+
+
