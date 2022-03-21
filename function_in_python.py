@@ -71,3 +71,28 @@
 # print("first root=",x1)
 # print("second root=",x2)
 
+
+#9
+# from math import *
+# import sys
+# def choice(x,y):
+#     n = input("a-biggest divider b-smallest divider c-power d-result of sqrt e-exit: ")
+#     if n == "a":
+#         ls = [x/2,y/2]
+#         print(max(ls))
+#     elif n == 'b':
+#         ls = [x / 2, y / 2]
+#         print(min(ls))
+#     elif n == "c":
+#         power = x ** y
+#         print(power)
+#     elif n == "d":
+#         result = sqrt(x)-sqrt(y)
+#         print(result)
+#     elif n == "e":
+#         return
+#     else:
+#         sys.stderr.write("Invalid choise")
+#
+#
+# choice(10,2)
