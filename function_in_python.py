@@ -75,27 +75,44 @@
 #9
 # from math import *
 # import sys
-# def choice(x,y):
+# def bigger(x,y):
+#     empty_list = []
+#     for i in range(1,x+1):
+#         if x%i==0 and y%i==0:
+#             empty_list.append(i)
+#     print("you are the biggest devider -")
+#     return max(empty_list)
+#
+#
+# def smallest(x,y):
+#     empty_list2 = []
+#     for i in range(1,x+1):
+#         if x%i==0 and y%i==0:
+#             empty_list2.append(i)
+#     print("you are the lowest devider -")
+#     return min(empty_list2)
+#
+#
+# def choice():
+#     num1 = int(input("enter number :"))
+#     num2 = int(input("enter number :"))
 #     n = input("a-biggest divider b-smallest divider c-power d-result of sqrt e-exit: ")
 #     if n == "a":
-#         ls = [x/2,y/2]
-#         print(max(ls))
+#         print(bigger(num1,num2))
 #     elif n == 'b':
-#         ls = [x / 2, y / 2]
-#         print(min(ls))
+#         print(smallest(num1,num2))
+#
 #     elif n == "c":
-#         power = x ** y
+#         power = num1 ** num2
 #         print(power)
 #     elif n == "d":
-#         result = sqrt(x)-sqrt(y)
+#         result = sqrt(num1)-sqrt(num2)
 #         print(result)
 #     elif n == "e":
 #         return
 #     else:
 #         sys.stderr.write("Invalid choise")
-#
-#
-# choice(10,2)
+# choice()
 
 #q11
 # def customers():
@@ -110,6 +127,4 @@
 #     elif goods_in_year > 8000 and bills_in_time == 1 and seniorty_in_company >= 5:
 #         print(customers_id, "You spacial custome ! You deserve special care ")
 #customers()
-
-
 
